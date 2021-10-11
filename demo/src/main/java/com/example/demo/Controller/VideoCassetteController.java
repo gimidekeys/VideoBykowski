@@ -27,10 +27,16 @@ public class VideoCassetteController {
         return videoCasetteService.findAll();
     }
 
-    @GetMapping
-  public  Optional<VideoCasette> getById(@RequestParam Long index){
+//    @GetMapping
+//  public  Optional<VideoCasette> getById(@RequestParam Long index){
+//
+//        return videoCasetteService.findById(index);
+//    }
 
-        return videoCasetteService.findById(index);
+    @GetMapping
+  public  String get(){
+
+        return "Eluwina Byku!";
     }
 
     @PostMapping

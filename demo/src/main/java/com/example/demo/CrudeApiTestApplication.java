@@ -8,7 +8,7 @@ public class CrudeApiTestApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CrudeApiTestApplication.class, args);
-		System.out.println("Hello world!");
+
 	}
 
 }
